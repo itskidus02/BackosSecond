@@ -9,19 +9,19 @@ const Bottom = () => {
           <div class="mb-6 md:mb-0 flex justify-start text-left flex-col gap-2">
             <a class="flex flex-col justify-start items-start gap-1">
               <img src={logo} class="h-12 me-3" />
-              <span class="text-3xl font-semibold whitespace-nowrap mt-3 hover:text-[#2092CF] text-black">
+              <span class="text-3xl font-semibold whitespace-nowrap mt-3 font-poppins hover:text-[#2092CF] text-black">
                 Appoint
               </span>
-              <span class="text-xl font-light ">
+              <span class=" font-poppins font-light ">
                 Simplifying your booking experience <br /> with Seamless
                 Appointments
               </span>
             </a>
           </div>
 
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 font-poppins sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-sm font-semibold  uppercase text-black">
+              <h2 class="mb-6 text-sm font-semibold font-poppins  uppercase text-black">
                 Company
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 gap-3 font-light">
