@@ -7,6 +7,9 @@ const Service = () => {
   return (
     <div className="flex items-center justify-center min-h-screen relative">
       {/* Blue circle overlaying the outside div */}
+      <div className="hidden lg:block absolute bottom-[9rem] left-[83rem] transform z-10 overflow-hidden">
+        <div className="w-52 h-52 bg-[#BCE1F5] rounded-full"></div>
+      </div>
       <div className="hidden lg:block absolute bottom-[14rem] left-36 transform z-10 overflow-hidden">
         <div className="w-28 h-28 bg-[#BCE1F5] rounded-full"></div>
       </div>
