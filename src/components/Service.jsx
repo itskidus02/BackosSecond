@@ -27,7 +27,7 @@ const Service = () => {
           </div>
           <div className="relative text-center z-20 grid grid-cols-1 md:grid-cols-3 mx-auto gap-4">
             <div className="service-item">
-              <div className="relative rounded-[15px] p-12 m-4 bg-[#FAFAFA] text-black shadow-md transform translate-y-[-20px] h-80">
+              <div className="relative hover:ring-2 hover:ring-[#2092CF] transition-all rounded-[15px] p-12 m-4 bg-[#FAFAFA] text-black shadow-md transform translate-y-[-20px] h-80">
                 <div className="flex items-center justify-center text-4xl text-center mb-2">
                   <img src={alarm} className="w-[55px] h-[50px] text-center" alt="alarm" />
                 </div>
@@ -40,7 +40,7 @@ const Service = () => {
               </div>
             </div>
             <div className="service-item">
-              <div className="relative rounded-[15px] bg-[#FAFAFA] text-black p-12 m-4 shadow-md transform translate-y-[-20px] h-80">
+              <div className="relative rounded-[15px] hover:ring-2 hover:ring-[#2092CF] transition-all bg-[#FAFAFA] text-black p-12 m-4 shadow-md transform translate-y-[-20px] h-80">
                 <div className="flex items-center justify-center text-4xl mb-2">
                   <img src={bag} className="w-[55px] h-[50px] text-center" alt="bag" />
                 </div>
@@ -54,7 +54,7 @@ const Service = () => {
               </div>
             </div>
             <div className="service-item">
-              <div className="relative rounded-[15px] bg-[#FAFAFA] text-black p-12 m-4 shadow-md transform translate-y-[-20px] h-80">
+              <div className="relative rounded-[15px] hover:ring-2 hover:ring-[#2092CF] transition-all bg-[#FAFAFA] text-black p-12 m-4 shadow-md transform translate-y-[-20px] h-80">
                 <div className="flex items-center justify-center text-4xl mb-2">
                   <img src={tick} className="w-[55px] h-[50px] text-center" alt="tick" />
                 </div>
