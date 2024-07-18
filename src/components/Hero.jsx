@@ -5,11 +5,11 @@ const Hero = () => {
   return (
     <div className="flex items-center flex-col lg:flex-row justify-center w-3/4 mx-auto space-x-20 mt-[100px] rig-2 ing-blue-300 bg-white p-6 relative">
       <div className="text-center md:text-left ing-2 rng-red-300 lg:w-2/2">
-        <h1 className="lg:text-6xl text-3xl font-bold lg:leading-tight">
+        <h1 className="lg:text-6xl text-3xl font-lora font-bold lg:leading-tight">
           Effortless <span className="text-[#2092CF]"> <br /> Scheduling</span>, 
           Automated for <br /> Your Convenience
         </h1>
-        <button className="mt-6 px-10 rounded-[2px] py-1 bg-[#2092CF] text-white shadow-lg">
+        <button className="mt-6 px-10 rounded-[2px] py-1 font-poppins bg-[#2092CF] text-white shadow-lg">
           Get Started
         </button>
       </div>
