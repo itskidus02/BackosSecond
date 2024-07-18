@@ -4,10 +4,10 @@ import viteLogo from '/vite.svg'
 import Service from './components/Service'
  import Header from './components/Header'
  import Hero from './components/Hero'
-// import ThirdSec from './components/ThirdSec'
-// import How from './components/How'
-// import Bottom from './components/Bottom'
-// import { AccordionDemo } from './components/Demo/AccordionDemo'
+import ThirdSec from './components/ThirdSec'
+import How from './components/How'
+import Bottom from './components/Bottom'
+import { AccordionDemo } from './components/Demo/AccordionDemo'
 
 
 function App() {
@@ -17,14 +17,14 @@ function App() {
     <>
      <Header/>
     <Hero/>   
-    {/* <ThirdSec/> */}
-    {/* <How/> */}
+    <Service/>  
+    <ThirdSec/>
+    <How/>
     
-   {/* <AccordionDemo/> */}
+   <AccordionDemo/>
 
     
-    {/* <Service/>   */}
-    {/* <Bottom/>  */}
+    <Bottom/> 
     
     </>
   )
