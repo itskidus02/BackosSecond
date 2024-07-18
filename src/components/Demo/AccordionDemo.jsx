@@ -8,7 +8,7 @@ import {
   export function AccordionDemo() {
     return (
       <div className="flex flex-col justify-center items-center min-h-screen">
-        <h1 className="mb-9 lg:text-4xl text-2xl font-bold text-[#2092CF]">Frequently Asked Questions </h1>
+        <h1 className="mb-9 lg:text-4xl text-2xl font-semibold font-poppins text-[#2092CF]">Frequently Asked Questions </h1>
         <Accordion type="single" collapsible className="w-2/4 mx-auto">
           <AccordionItem value="item-1">
             <AccordionTrigger>How long does the registration process take?</AccordionTrigger>
