@@ -6,8 +6,8 @@ import Service from './components/Service'
 //  import Hero from './components/Hero'
 // import ThirdSec from './components/ThirdSec'
 // import How from './components/How'
-// import Bottom from './components/Bottom'
-import { AccordionDemo } from './components/Demo/AccordionDemo'
+import Bottom from './components/Bottom'
+// import { AccordionDemo } from './components/Demo/AccordionDemo'
 
 
 function App() {
@@ -20,11 +20,11 @@ function App() {
     {/* <ThirdSec/> */}
     {/* <How/> */}
     
-   <AccordionDemo/>
+   {/* <AccordionDemo/> */}
 
     
     {/* <Service/>   */}
-    {/* <Bottom/>  */}
+    <Bottom/> 
     
     </>
   )
