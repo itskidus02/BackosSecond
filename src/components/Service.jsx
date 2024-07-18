@@ -2,28 +2,33 @@ import React from "react";
 
 const Service = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="flex flex-col items-center w-3/4 text-center mx-auto gap-8 relative">
-        {/* Main blue div */}
-        <div className="lg:text-[55px] bg-blue-400 rounded-3xl md:text-[30px] text-[21px] text-[#2092CF] p-16 relative">
-          {/* Left text */}
-          <div className="absolute top-4 left-4 text-left text-black text-2xl">
-            Our best service for you!
+    <div className="flex items-center justify-center min-h-screen ">
+      <div className="relative py-16  overflow-hidden w-3/4 mx-auto">
+        <div className="absolute rounded-[30px] inset-0 bg-blue-500 h-64"></div>
+        <div className="relative z-10 container mx-auto px-4">
+          <div className="flex flex-row justify-between items-center mb-8">
+            <h2 className="text-3xl font-bold text-left text-white">Our best service for you!</h2>
+            <p className="text-white text-right max-w-md">
+              Our platform takes the hassle out of scheduling, allowing you to focus on what really matters.
+              Streamline your workflow and save time with our intuitive and powerful scheduling tools.
+            </p>
           </div>
-Lorem ipsum dolor sit amet consectetur 
-          {/* Right text */}
-          <div className="absolute top-4 right-4 text-right text-white text-sm">
-            Our platform takes the hassle out of scheduling, allowing you to focus on what really matters. Streamline your workflow and save time with our intuitive and powerful scheduling tools.
-          </div>
-
-          {/* Grid content */}
-          <div className="grid grid-cols-3 gap-4 absolute top-20 left-9 right-9 bottom-20">
-            <div className="bg-black text-white p-4">
-              Easy
-              <p className="text-sm">The page is designed for effortless use and seamless access.</p>
+          <div className="relative text-center z-20 grid grid-cols-1 md:grid-cols-3  mx-auto gap-5">
+            <div className="relative bg-white text-black p-6 rounded-lg shadow-md transform translate-y-10">
+              <div className="text-4xl mb-2">⏰</div>
+              <h3 className="text-xl font-semibold mb-2">Easy to use</h3>
+              <p>The page is designed for effortless use and seamless access.</p>
             </div>
-            <div className="bg-black text-white p-4">Custom</div>
-            <div className="bg-black text-white p-4">Round</div>
+            <div className="relative bg-white text-black p-6 rounded-lg shadow-md transform translate-y-10">
+              <div className="text-4xl mb-2">🔒</div>
+              <h3 className="text-xl font-semibold mb-2">Custom Booking page</h3>
+              <p>Enhance your professional business with a customized booking page.</p>
+            </div>
+            <div className="relative bg-white text-black p-6 rounded-lg shadow-md transform translate-y-10">
+              <div className="text-4xl mb-2">✔️</div>
+              <h3 className="text-xl font-semibold mb-2">Round the clock support</h3>
+              <p>Anytime, Anywhere, your customers can access and book an appointment.</p>
+            </div>
           </div>
         </div>
       </div>
