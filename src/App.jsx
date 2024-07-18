@@ -3,10 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Service from './components/Service'
  import Header from './components/Header'
-//  import Hero from './components/Hero'
+ import Hero from './components/Hero'
 // import ThirdSec from './components/ThirdSec'
 // import How from './components/How'
-import Bottom from './components/Bottom'
+// import Bottom from './components/Bottom'
 // import { AccordionDemo } from './components/Demo/AccordionDemo'
 
 
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
      <Header/>
-    {/* <Hero/>    */}
+    <Hero/>   
     {/* <ThirdSec/> */}
     {/* <How/> */}
     
@@ -24,7 +24,7 @@ function App() {
 
     
     {/* <Service/>   */}
-    <Bottom/> 
+    {/* <Bottom/>  */}
     
     </>
   )
