@@ -2,14 +2,11 @@ import React from "react";
 import alarm from "../assets/alarm.png";
 import tick from "../assets/tick.png";
 import bag from "../assets/bag.png";
+import "../assets/Service.css"; // Assuming you have a separate CSS file
 
 const Service = () => {
   return (
     <div className="flex items-center justify-center min-h-screen relative">
-      {/* Blue circle overlaying the outside div */}
-      {/* <div className="hidden lg:block absolute bottom-[9rem] left-[83rem] transform z-10 overflow-hidden">
-        <div className="w-52 h-52 bg-[#BCE1F5] rounded-full"></div>
-      </div> */}
       <div className="hidden lg:block absolute bottom-[14rem] left-36 transform z-10 overflow-hidden">
         <div className="w-28 h-28 bg-[#BCE1F5] rounded-full"></div>
       </div>
@@ -29,40 +26,46 @@ const Service = () => {
             </p>
           </div>
           <div className="relative text-center z-20 grid grid-cols-1 md:grid-cols-3 mx-auto gap-4">
-            <div className="relative rounded-[15px] p-12 m-4 bg-[#FAFAFA] text-black shadow-md transform translate-y-[-20px] h-80">
-              <div className="flex items-center justify-center text-4xl text-center mb-2">
-                <img src={alarm} className="w-[55px] h-[50px] text-center" />
+            <div className="service-item">
+              <div className="relative rounded-[15px] p-12 m-4 bg-[#FAFAFA] text-black shadow-md transform translate-y-[-20px] h-80">
+                <div className="flex items-center justify-center text-4xl text-center mb-2">
+                  <img src={alarm} className="w-[55px] h-[50px] text-center" alt="alarm" />
+                </div>
+                <h3 className="text-xl font-semibold font-poppins text-[#5A5555] mb-6 mt-7">
+                  Easy to use
+                </h3>
+                <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
+                  The page is designed for effortless use and seamless access.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold font-poppins text-[#5A5555] mb-6 mt-7">
-                Easy to use
-              </h3>
-              <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
-                The page is designed for effortless use and seamless access.
-              </p>
             </div>
-            <div className="relative rounded-[15px] bg-[#FAFAFA] text-black p-12 m-4 shadow-md transform translate-y-[-20px] h-80">
-              <div className="flex items-center justify-center text-4xl mb-2">
-                <img src={bag} className="w-[55px] h-[50px] text-center" />
+            <div className="service-item">
+              <div className="relative rounded-[15px] bg-[#FAFAFA] text-black p-12 m-4 shadow-md transform translate-y-[-20px] h-80">
+                <div className="flex items-center justify-center text-4xl mb-2">
+                  <img src={bag} className="w-[55px] h-[50px] text-center" alt="bag" />
+                </div>
+                <h3 className="text-xl font-poppins font-semibold mb-6 mt-7 text-[#5A5555]">
+                  Custom Booking page
+                </h3>
+                <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
+                  Enhance your professional business with a customized booking
+                  page.
+                </p>
               </div>
-              <h3 className="text-xl font-poppins font-semibold mb-6 mt-7 text-[#5A5555]">
-                Custom Booking page
-              </h3>
-              <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
-                Enhance your professional business with a customized booking
-                page.
-              </p>
             </div>
-            <div className="relative rounded-[15px] bg-[#FAFAFA] text-black p-12 m-4 shadow-md transform translate-y-[-20px] h-80">
-              <div className="flex items-center justify-center text-4xl mb-2">
-                <img src={tick} className="w-[55px] h-[50px] text-center" />
+            <div className="service-item">
+              <div className="relative rounded-[15px] bg-[#FAFAFA] text-black p-12 m-4 shadow-md transform translate-y-[-20px] h-80">
+                <div className="flex items-center justify-center text-4xl mb-2">
+                  <img src={tick} className="w-[55px] h-[50px] text-center" alt="tick" />
+                </div>
+                <h3 className="text-xl font-poppins font-semibold mb-6 mt-7 text-[#5A5555]">
+                  Round the clock support
+                </h3>
+                <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
+                  Anytime, Anywhere, your customers can access and book an
+                  appointment.
+                </p>
               </div>
-              <h3 className="text-xl font-poppins font-semibold mb-6 mt-7 text-[#5A5555]">
-                Round the clock support
-              </h3>
-              <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
-                Anytime, Anywhere, your customers can access and book an
-                appointment.
-              </p>
             </div>
           </div>
         </div>
