@@ -1,20 +1,21 @@
 import React from "react";
 import logo from "../assets/logo.png";
+
 const Header = () => {
   return (
-    <div class="flex flex-col md:flex-row justify-around shadow-md items-center p-2">
-      <div class="mb-2 w-[85px] h-[64px] md:mb-0">
-        <img src={logo} />
+    <div className="flex md:flex-row justify-around shadow-md items-center p-1">
+      <div className="mt-1 w-[55px] h-[50px] md:mb-0">
+        <img src={logo} alt="Logo" />
       </div>
-      <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-        <button>Home</button>
-        <button>Contact Us</button>
-        <button>Features</button>
-        <button>Pricing</button>
+      <div className=" md:flex space-x-4 md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+        <button className="text-sm hover:text-[#2092CF]">Home</button>
+        <button className="text-sm hover:text-[#2092CF]">Contact Us</button>
+        <button className="text-sm hover:text-[#2092CF]">Features</button>
+        <button className="text-sm hover:text-[#2092CF]">Pricing</button>
       </div>
-      <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 mt-2 md:mt-0">
-        <button className="text-[#2092CF] p-2 ">Log in</button>
-        <button class="bg-[#2092CF] p-2 rounded-sm text-white text-sm">
+      <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 mt-2 md:mt-0">
+        <button className="text-[#2092CF] hover:text-black  text-sm p-2">Log in</button>
+        <button className="bg-[#2092CF] lg:px-4 px-2 py-2 rounded-[4px] hover:bg-white hover:ring-2 hover:ring-[#2092CF] hover:text-[#2092CF] text-white text-xs">
           Get Started
         </button>
       </div>
