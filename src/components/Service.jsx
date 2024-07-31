@@ -19,7 +19,7 @@ const Service = () => {
             <h2 className="lg:text-3xl text-[20px] font-poppins font- ml-5 text-white">
               Our best service for you!
             </h2>
-            <p className="text-white text-[14px] font-poppins mr-9 text-left max-w-md">
+            <p className="text-white text-[12px] lg:text-[15px]  font-poppins mr-9 text-left max-w-md">
               Our platform takes the hassle out of scheduling, allowing you to
               focus on what really matters. Streamline your workflow and save
               time with our intuitive and powerful scheduling tools.
@@ -31,10 +31,10 @@ const Service = () => {
                 <div className="flex items-center justify-center text-4xl text-center mb-2">
                   <img src={alarm} className="w-[55px] h-[50px] text-center" alt="alarm" />
                 </div>
-                <h3 className="text-xl font-semibold font-poppins text-[#5A5555] mb-6 mt-7">
+                <h3 className="text-xl font-semibold md:text-[15px] font-poppins text-[#5A5555] mb-6 mt-7">
                   Easy to use
                 </h3>
-                <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
+                <p className="lg:text-[16px] font-poppins md:text-[7px]  text-[10px] text-[#5A5555]">
                   The page is designed for effortless use and seamless access.
                 </p>
               </div>
@@ -44,10 +44,10 @@ const Service = () => {
                 <div className="flex items-center justify-center text-4xl mb-2">
                   <img src={bag} className="w-[55px] h-[50px] text-center" alt="bag" />
                 </div>
-                <h3 className="text-xl font-poppins font-semibold mb-6 mt-7 text-[#5A5555]">
+                <h3 className="text-xl  font-poppins md:text-[15px] font-semibold mb-6 mt-7 text-[#5A5555]">
                   Custom Booking page
                 </h3>
-                <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
+                <p className="lg:text-[13px] md:text-[7px] font-poppins text-[10px] text-[#5A5555]">
                   Enhance your professional business with a customized booking
                   page.
                 </p>
@@ -58,10 +58,10 @@ const Service = () => {
                 <div className="flex items-center justify-center text-4xl mb-2">
                   <img src={tick} className="w-[55px] h-[50px] text-center" alt="tick" />
                 </div>
-                <h3 className="text-xl font-poppins font-semibold mb-6 mt-7 text-[#5A5555]">
+                <h3 className="text-xl font-poppins md:text-[15px] font-semibold mb-6 mt-7 md:mt-3 text-[#5A5555]">
                   Round the clock support
                 </h3>
-                <p className="lg:text-[16px] font-poppins text-[10px] text-[#5A5555]">
+                <p className="lg:text-[13px] md:text-[7px]  font-poppins text-[10px] text-[#5A5555]">
                   Anytime, Anywhere, your customers can access and book an
                   appointment.
                 </p>
