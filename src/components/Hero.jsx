@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="flex items-center flex-col lg:flex-row justify-center w-3/4 mx-auto space-x-20 mt-[100px] rig-2 ing-blue-300 bg-white p-6 relative">
       <div className="text-center md:text-left ing-2 rng-red-300 lg:w-2/2">
-        <h1 className="lg:text-6xl xl:text-[70px] text-3xl font-lora  font-bold lg:leading-tight">
+        <h1 className="lg:text-6xl xl:text-[70px] text-3xl font-lora md:text-[70px] md:leading-tight  font-bold lg:leading-tight">
           Effortless{" "}
           <span className="text-[#2092CF] ">
             {" "}
