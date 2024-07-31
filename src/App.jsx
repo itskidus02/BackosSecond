@@ -8,6 +8,7 @@ import ThirdSec from './components/ThirdSec'
 import How from './components/How'
 import Bottom from './components/Bottom'
 import { AccordionDemo } from './components/Demo/AccordionDemo'
+import Top from './components/Top'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
 
   return (
     <>
-     <Header/>
+    <Top/>
+     {/* <Header/> */}
      <Hero/>   
     <Service/>  
     <ThirdSec/>
